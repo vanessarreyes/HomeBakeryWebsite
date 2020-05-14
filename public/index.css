@@ -1,6 +1,18 @@
 body {
   background-color: #86325A !important;
   font-family: "Times New Roman" !important;
+  animation: fadeInAnimation ease 3.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 
@@ -13,6 +25,18 @@ body {
   border-style: solid !important;
   margin-top: 300px;
   white-space: normal;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ffccd5 !important; /* Green */
+  color: black !important;
+}
+
+.dropdown-menu-center {
+  left: 50% !important;
+  margin-left: -108px !important;
+  text-align: center;
 }
 
 div {
@@ -28,6 +52,12 @@ div {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
+}
+
+.bottom-container {
+  background-color: #ffccd5;
+  width: 100%;
+  height: 150px;
 }
 
 ul.no_bullet {

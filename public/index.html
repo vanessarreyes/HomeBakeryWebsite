@@ -6,17 +6,22 @@
   <meta name="description" content="">
   <title>Anisa's Cake Creations</title>
   <link rel="shortcut icon" href="images/logo.jpg">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <!-- Css file -->
   <link rel="stylesheet" href="index.css">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
 </head>
 
 <body>
-
+  <!-- Jumbotron -->
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <img class="center" src="images/logo.jpg" alt="First slide">
@@ -27,22 +32,30 @@
 
 
   <!-- cards to hold urls for other pages -->
-  <div style="margin-left:40px;margin-right:40px;margin-top:60px;" class="row">
-    <div class="col-sm-4" style="text-align:center;">
-      <div class="card h-100">
-        <div class="img-fluid">
-          <img class="card-img-top" src="images/penguinCake.jpeg" alt="Card image" style="max-width:100%; max-height:100%">
-          <div class="card-img-overlay d-flex flex-column card-body">
-            <a href="#" class="btn btn-block mt-auto font-weight-bold">About<a>
-          </div>
-          </div>
-      </div>
-    </div>
+  <div style="margin-left:40px;margin-right:40px;margin-top:40px;" class="row">
     <div class="col-sm-4" style="text-align:center;">
       <div class="card h-100">
         <div class="img-fluid">
           <img class="card-img-top" src="images/zooCake.jpeg" alt="Card image" style="max-width:100%; max-height:100%">
           <div class="card-img-overlay d-flex flex-column card-body">
+
+            <a href="#" class="btn btn-block mt-auto font-weight-bold dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu<a>
+
+            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Cakes</a></li>
+              <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+              <li><a class="dropdown-item" href="#">Cookies/Cake Pops</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4" style="text-align:center;">
+      <div class="card h-100">
+        <div class="img-fluid">
+          <img class="card-img-top" src="images/anisa.jpeg" alt="Card image" style="max-width:100%; max-height:100%">
+          <div class="card-img-overlay d-flex flex-column card-body">
             <a href="#" class="btn btn-block mt-auto font-weight-bold">About<a>
           </div>
           </div>
@@ -51,53 +64,66 @@
     <div class="col-sm-4" style="text-align:center;">
       <div class="card h-100">
         <div class="img-fluid">
-          <img class="card-img-top" src="images/tacoCake.jpg" alt="Card image" style="max-width:100%; max-height:100%">
+          <img class="card-img-top" src="images/nakedflowercake.jpeg" alt="Card image" style="max-width:100%; max-height:100%">
           <div class="card-img-overlay d-flex flex-column card-body">
-            <a href="#" class="btn btn-block mt-auto font-weight-bold">About<a>
+            <a href="#" class="btn btn-block mt-auto font-weight-bold">Gallery<a>
           </div>
           </div>
       </div>
     </div>
   </div>
   <div style="margin-top:40px;margin-left:40px; margin-right:40px;margin-bottom:40px;" class="row">
-    <div class="col-sm-4" style="text-align:center">
+    <div class="col-sm-4" style="text-align:center;">
       <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">Contact</h5>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-block">Go somewhere</a>
-        </div>
+        <div class="img-fluid">
+          <img class="card-img-top" src="images/cupcakes1.jpg" alt="Card image" style="max-width:100%; max-height:100%">
+          <div class="card-img-overlay d-flex flex-column card-body">
+            <a href="#" class="btn btn-block mt-auto font-weight-bold">Ordering/Cancellations<a>
+          </div>
+          </div>
       </div>
     </div>
-    <div class="col-sm-4" style="text-align:center">
+    <div class="col-sm-4" style="text-align:center;">
       <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">General Terms and Conditions</h5>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-block">Go somewhere</a>
-        </div>
+        <div class="img-fluid">
+          <img class="card-img-top" src="images/penguinCake.jpeg" alt="Card image" style="max-width:100%; max-height:100%">
+          <div class="card-img-overlay d-flex flex-column card-body">
+            <a href="#" class="btn btn-block mt-auto font-weight-bold">Contact<a>
+          </div>
+          </div>
       </div>
     </div>
-    <div class="col-sm-4" style="text-align:center">
+    <div class="col-sm-4" style="text-align:center;">
       <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title">FAQ</h5>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-block">Go somewhere</a>
-        </div>
+        <div class="img-fluid">
+          <img class="card-img-top" src="images/weddingcookies.jpg" alt="Card image" style="max-width:100%; max-height:100%">
+          <div class="card-img-overlay d-flex flex-column card-body">
+            <a href="#" class="btn btn-block mt-auto font-weight-bold">Terms & Conditions<a>
+          </div>
+          </div>
       </div>
     </div>
   </div>
 
+
+
+
   <!-- Footer -->
-  <footer class="page-footer font-small unique-color-dark">
+  <footer class="page-footer font-small">
     <div style="background-color:#FFFAFA;">
       <!-- Footer Links -->
+      <div class="bottom-container">
+        <br>
+        <div style="margin-left:40px;margin-right:40px;">
+          <h5 style="font-family:Apple Chancery;text-align:center;font-size:25px">Colorado Cottage Foods Act</h5>
+          <p style="text-align:center;font-size:18px;">Anisa's Cake Creations products are produced in a home kitchen that is not subject to state licensure or inspection and that may also process common food allergens such as tree nuts, peanuts, eggs, soy, wheat, milk, fish, and crustacean shellfish. Anisa's Cake Creations products are not intended for resale.</p>
+        </div>
+      </div>
       <div class="container text-center text-md-left mt-5" style="margin-right:65px;">
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin-top:30px;">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin-top:20px;">
             <!-- Content -->
             <h6 class="text-uppercase font-weight-bold">Contact Info</h6>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -145,18 +171,11 @@
             </div>
           </div>
           <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
-
       </div>
-      <!-- Footer Links -->
-
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright
       </div>
-      <!-- Copyright -->
-
   </footer>
   <!-- Footer -->
 
