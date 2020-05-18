@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+  <meta name="description" content="">
+
+  <title>Menu: Cakes</title>
+  <link rel="shortcut icon" href="../images/logo.jpg">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- Css file -->
+  <link rel="stylesheet" href="cakes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="../index.html">
+      <img class="rounded-circle" src="../images/logo.jpg" alt="Anisa's Cake Creations Logo" width="45" height="45">
+      <a class="navbar-brand" href="../index.html">Anisa's Cake Creations</a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../menu/cakes.html">Cakes</a>
+              <a class="dropdown-item" href="../menu/cupcakes.html">Cupcakes</a>
+              <a class="dropdown-item" href="../menu/others.html">Cookies/Cake Pops</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../gallery/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ordering-cancel/ordering-cancel.html">Ordering/Cancellations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../terms-condit/terms-condit.html">Terms & Conditions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 style="text-shadow: 2px 2px black;">Cakes</h1>
+      <h4 style="color:white;">See our cake flavors and more below</h4>
+    </div>
+  </div>
+
+  <div class="background-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+      <div class="carousel-inner" style="margin:auto;max-width:100%;max-height:600px">
+        <div class="carousel-item active">
+          <img class="d-block" src="../images/colorful-cake.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block" src="../images/pot-cake.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block" src="../images/small-pink-cake.jpeg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block" src="../images/taco-cake.jpg" alt="Third slide">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container cake-info">
+    <div class="row">
+      <div class="col-md">
+        <h2 class="cake-items">Flavors</h2>
+        <ul class="cake-lists no_bullet">
+          <li class="small-cake">White</li>
+          <li class="small-cake">Chocolate</li>
+          <li class="small-cake">Marble</li>
+          <li class="small-cake">Confetti</li>
+          <li class="small-cake">Carrot</li>
+          <li class="small-cake">Red Velvet</li>
+          <li class="small-cake">Strawberry</li>
+          <li class="small-cake">Lemon</li>
+        </ul>
+      </div>
+      <div class="col-md">
+        <h2 class="cake-items">Icings</h2>
+        <ul class="cake-lists no_bullet">
+          <li class="pastry-bag">White Buttercream</li>
+          <li class="pastry-bag">Chocolate Buttercream</li>
+          <li class="pastry-bag">Whip Icing</li>
+          <li class="pastry-bag">Cream Cheese</li>
+        </ul>
+      </div>
+    </div>
+    <h2 class="cake-items" style="margin-top:20px;">Sizes</h2>
+    <div class="row">
+      <div class="col-md">
+        <h4 class="cake-sizings-header">Sheet Cakes</h4>
+        <table class="table table-striped" style="text-align:center;">
+          <thead>
+            <tr style="background-color:#999999 !important">
+              <th scope="col">Sheet Size</th>
+              <th scope="col">Servings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>1/4</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>1/2</td>
+              <td>48</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>Full</td>
+              <td>96</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md">
+        <h4 class="cake-sizings-header">Round Cakes</h4>
+        <table class="table table-striped" style="text-align:center;">
+          <thead>
+            <tr style="background-color:#999999 !important">
+              <th scope="col">Round Size</th>
+              <th scope="col">Servings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>6" Single</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>6" Double</td>
+              <td>12</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>9" Single</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>9" Double</td>
+              <td>20</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>10" Double</td>
+              <td>28</td>
+            </tr>
+            <tr>
+              <td>12" Double</td>
+              <td>40</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>14" Double</td>
+              <td>63</td>
+            </tr>
+            <tr>
+              <td>16" Double</td>
+              <td>77</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md">
+        <h4 class="cake-sizings-header">2 Tier Cakes</h4>
+        <table class="table table-striped" style="text-align:center;">
+          <thead>
+            <tr style="background-color:#999999 !important">
+              <th scope="col">Size</th>
+              <th scope="col">Servings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>9" double & 6" double</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>10" double & 6" double</td>
+              <td>30</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>10" double & 7" double</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>12" double & 7" double</td>
+              <td>50</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>12" double & 9" double</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>14" double & 9" double</td>
+              <td>85</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>16" double & 10" double</td>
+              <td>110</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md">
+        <h4 class="cake-sizings-header">3 Tier Cakes</h4>
+        <table class="table table-striped" style="text-align:center;">
+          <thead>
+            <tr style="background-color:#999999 !important">
+              <th scope="col">Size</th>
+              <th scope="col">Servings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>4" double, 6" double, & 9" double</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>4" double, 6" double, & 10" double</td>
+              <td>45</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>6" double, 9" double, & 10" double</td>
+              <td>60</td>
+            </tr>
+            <tr>
+              <td>6" double, 9" double, & 12" double</td>
+              <td>72</td>
+            </tr>
+            <tr style="background-color:#ffe6ea !important;">
+              <td>6" double, 10" double, & 14" double</td>
+              <td>105</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row" style="margin-left:20px;margin-right:20px;">
+      <h3 class="cake-items" style="margin-bottom:20px;">Note</h3>
+      <p>Since Anisa's Cake Creations is a Cottage Food Operator, we need to comply with the restrictions set out in the Colorado Cottage Foods Act. This act limits the use of certain ingredients and thus limits our ability to offer certain flavors.</p>
+    </div>
+
+  </div>
+
+
+
+  <br>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <div style="background-color:#FFFAFA;">
+      <!-- Footer Links -->
+      <div class="bottom-container">
+        <br>
+        <div style="margin-left:40px;margin-right:40px;">
+          <h5 style="font-family:Apple Chancery;text-align:center;font-size:25px">Colorado Cottage Foods Act</h5>
+          <p style="text-align:center;font-size:18px;">Anisa's Cake Creations products are produced in a home kitchen that is not subject to state licensure or inspection and that may also process common food allergens such as tree nuts, peanuts, eggs, soy, wheat, milk, fish, and crustacean shellfish. Anisa's Cake Creations products are not intended for resale.</p>
+          <br>
+        </div>
+      </div>
+      <div class="container text-center text-md-left mt-5" style="margin-right:65px;">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin-top:20px;">
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold">Contact Info</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <ul class="no_bullet">
+              <li class="cake">Anisa Reyes</li>
+              <li class="phone">303-931-1250</li>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anisascakecreations@gmail.com" style="color:inherit"><li class="gmail">anisascakecreations@gmail.com</li></a>
+              <li class="address">(address)</li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="margin-top:30px;">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Opening Hours</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <ul class="no_bullet">
+              <li class="clock">Monday - Friday: ...</li>
+              <li class="clock">Saturday: ...</li>
+              <li class="clock">Sunday: ...</li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="margin-top:30px;">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Payments Accepted</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <ul class="no_bullet">
+              <li class="money">Cash<li>
+              <li class="venmo">Venmo</li>
+              <li class="paypal">PayPal</li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin-top:30px;">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Follow Us</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width:60px;">
+            <div>
+                <div class="col">
+                  <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div class="col" style="margin-top:20px;">
+                  <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright
+      </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- js file -->
+  <script src="menu.js"></script>
+</body>
+</html>

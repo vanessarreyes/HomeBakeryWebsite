@@ -1,0 +1,229 @@
+body {
+  background-color:	#cccccc !important;
+  font-family: "Times New Roman" !important;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  font-family: "Apple Chancery";
+  font-size: 20px;
+  color: white !important;
+  margin-right: 2px;
+}
+
+.dropdown-item {
+  color: black !important;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ffccd5 !important;
+}
+
+.jumbotron {
+  border-bottom: 1px solid;
+  background-color: #86325A !important;
+  margin:0px;
+}
+
+.jumbotron h1 {
+  font-family: "Apple Chancery";
+  color: white;
+  font-size: 50px;
+}
+
+.background-carousel {
+  background-color: #ffccd5 !important;
+  border-bottom: 1px black solid;
+}
+
+.carousel {
+  position: relative;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.carousel-inner img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow:hidden !important;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit:cover !important;
+}
+
+
+.cake-info {
+  margin-top: 30px;
+  max-width: 100% !important;
+  white-space: normal;
+  position: relative;
+}
+
+.cake-items {
+  font-family: "Apple Chancery";
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px white;
+  margin-bottom: 20px;
+}
+
+.cake-sizings-header {
+  margin-bottom: 5px;
+  font-family: "Apple Chancery";
+}
+
+h4 {
+  font-family: "Apple Chancery";
+}
+
+.col-md{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cake-lists {
+  margin-left: 20px !important;
+}
+
+.cake-lists li {
+  font-size: 20px !important;
+}
+
+.size-lists {
+  font-size: 16px !important;
+  line-height: 18px;
+}
+
+.bottom-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #ffccd5;
+  width: 100%;
+  white-space: normal;
+}
+
+ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.pastry-bag {
+  background: url('../images/pastry-bag.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.small-cake {
+  background: url('../images/small-cake.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.heart-icon {
+  background: url('../images/heart-icon.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+  margin-bottom: 20px;
+}
+
+li.cake {
+  background: url('../images/cupcake_small.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.phone {
+  background: url('../images/phone.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.gmail {
+  background: url('../images/gmail.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.address {
+  background: url('../images/address.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.calendar {
+  background: url('../images/calendar.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.clock {
+  background: url('../images/clock.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.money {
+  background: url('../images/money.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.venmo {
+  background: url('../images/mobile-payment.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.paypal {
+  background: url('../images/paypal.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
