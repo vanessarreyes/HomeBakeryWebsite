@@ -67,6 +67,10 @@ nav a {
   font-size: 18px;
 }
 
+.dropdown-item:hover {
+  color: #86325A !important;
+}
+
 .nav-link:hover {
   color: #ffccd5 !important;
 }

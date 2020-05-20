@@ -19,6 +19,10 @@ nav a {
   font-size: 18px;
 }
 
+.dropdown-item:hover {
+  color: #86325A !important;
+}
+
 .nav-link:hover {
   color: #ffccd5 !important;
 }
@@ -43,7 +47,12 @@ nav a {
 }
 
 .gallery-click:hover {
-  color: #86325A;
+  color: #86325A !important;
+}
+
+.gallery-card:hover {
+  background-color: white;
+  color: #86325A !important;
 }
 
 .bottom-container {

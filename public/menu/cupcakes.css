@@ -38,6 +38,10 @@ nav a {
   font-size: 18px;
 }
 
+.dropdown-item:hover {
+  color: #86325A !important;
+}
+
 .cupcake-img {
   padding-right:0;
   padding-left:0;
