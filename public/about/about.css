@@ -1,0 +1,175 @@
+body {
+  background-color: #FFFAFA !important;
+  font-family: "Times New Roman" !important;
+}
+
+nav {
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  font-family: "Apple Chancery";
+  font-size: 20px;
+  color: white !important;
+  margin-right: 2px;
+}
+
+.jumbotron {
+  border-bottom: 1px black solid;
+  background-color: #86325A !important;
+  margin: 0px;
+}
+
+.jumbotron h1 {
+  font-family: "Apple Chancery";
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
+.dropdown-item {
+  color: black !important;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ffccd5 !important;
+}
+
+.about-info {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.about-header {
+  text-align: center;
+  font-family: "Apple Chancery";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.card-title {
+  font-family: "Apple Chancery";
+}
+
+
+.bottom-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #ffccd5;
+  width: 100%;
+  white-space: normal;
+}
+
+ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.heart-icon {
+  background: url('../images/heart-icon.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.cookie-icon {
+  background: url('../images/cookie-icon.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.cake {
+  background: url('../images/cupcake_small.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.phone {
+  background: url('../images/phone.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.gmail {
+  background: url('../images/gmail.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.address {
+  background: url('../images/address.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.calendar {
+  background: url('../images/calendar.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.clock {
+  background: url('../images/clock.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.money {
+  background: url('../images/money.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.venmo {
+  background: url('../images/mobile-payment.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+li.paypal {
+  background: url('../images/paypal.png') no-repeat left;
+  height: 20px;
+  padding-left: 20px;
+  margin-bottom:15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
