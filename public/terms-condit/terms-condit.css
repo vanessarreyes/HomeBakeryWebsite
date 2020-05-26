@@ -40,6 +40,28 @@ nav a {
   font-size: 50px;
 }
 
+.info-container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.card-body {
+  background-color: #86325A;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Apple Chancery";
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.card-text {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
 .bottom-container {
   border-top: 1px solid black;
   border-bottom: 1px solid black;

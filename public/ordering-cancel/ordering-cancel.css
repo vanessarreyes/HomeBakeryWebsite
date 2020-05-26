@@ -1,5 +1,5 @@
 body {
-  background-color: #86325A !important;
+  background-color: #FFFAFA !important;
   font-family: "Times New Roman" !important;
 }
 
@@ -38,6 +38,33 @@ nav a {
   color: white;
   text-shadow: 2px 2px black;
   font-size: 50px;
+}
+
+.info-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Apple Chancery";
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.card-text {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.card-1 {
+  background-color: #ffccd5;
+  color: black;
+}
+
+.card-2 {
+  background-color: #86325A;
+  color: white;
 }
 
 .bottom-container {
