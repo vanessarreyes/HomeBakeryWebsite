@@ -27,6 +27,19 @@ nav a {
   color: #ffccd5 !important;
 }
 
+.jumbotron {
+  border-bottom: 1px black solid;
+  background-color: #86325A !important;
+  margin: 0px;
+}
+
+.jumbotron h1 {
+  font-family: "Apple Chancery";
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
 .bottom-container {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
