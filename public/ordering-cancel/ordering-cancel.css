@@ -69,6 +69,46 @@ nav a {
   color: white;
 }
 
+.order-button {
+  margin: 0;
+  text-align: center;
+}
+
+.order-button .btn {
+  background-color: white !important;
+  color: black;
+  border: 1px solid black !important;
+  font-family: 'Apple Chancery';
+}
+
+.modal-header {
+  background-color: #ffccd5;
+}
+
+.modal-title {
+  text-align: center !important;
+  font-family: "Apple Chancery";
+}
+
+.modal-body {
+  background-color: #86325A;
+  color: white;
+}
+
+.order-text {
+  font-size: 20px;
+}
+
+.modal-footer {
+  background-color: #ffccd5;
+}
+
+.modal-footer .btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black !important;
+}
+
 .bottom-container {
   border-top: 1px solid black;
   border-bottom: 1px solid black;

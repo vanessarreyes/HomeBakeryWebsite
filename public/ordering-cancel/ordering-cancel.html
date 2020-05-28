@@ -66,7 +66,7 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1>Ordering & Cancellations</h1>
-      <h4 style="color:white;">Be informed on our ordering and cancellation policies</h4>
+      <h4 style="color:white;">Place an order and informed on our cancellation policies</h4>
     </div>
   </div>
 
@@ -83,6 +83,39 @@
               <li>Please provide a reference photo and from there we can create your special order</li>
               <li>Upon placing your order, a 50% deposit will be due. The other 50% is due at the time of pickup.</li>
             </ul>
+            <div class="order-button">
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderModal">Place an Order</button>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h3 class="modal-title w-100" id="orderModalLabel">Placing an Order</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h4>Ways to Contact</h4>
+                    <ul class="order-text">
+                      <li>Facebook Message</li>
+                      <li>Email: anisascakecreations@gmail.com</li>
+                    </ul>
+                    <h4>When Placing an Order:</h4>
+                    <ul class="order-text">
+                      <li>Please provide a reference photo</li>
+                      <li>Sizing/Quantity</li>
+                      <li>Pickup Date & Time</li>
+                  </div>
+                  <div class="modal-footer" style="display:inline-block;margin:0;text-align: center;">
+                    <a class="btn btn-secondary" role="button" href="https://www.facebook.com/anisascakecreations" style="margin-right:50px;">Facebook Message</a>
+                    <a class="btn btn-primary" role="button" href="https://mail.google.com/mail/?view=cm&fs=1&to=anisascakecreations@gmail.com">Email</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -135,7 +168,6 @@
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <ul class="no_bullet">
               <li class="cake">Anisa Reyes</li>
-              <li class="phone">303-931-1250</li>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anisascakecreations@gmail.com" style="color:inherit"><li class="gmail">anisascakecreations@gmail.com</li></a>
             </ul>
           </div>
