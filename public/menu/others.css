@@ -51,7 +51,7 @@ nav a {
 }
 
 .dessert-lists {
-  margin-left: 20px !important;
+  margin-left: 15px !important;
 }
 
 .dessert-lists li {
@@ -100,9 +100,9 @@ li.heart-icon {
 
 li.cookie-icon {
   background: url('../images/cookie-icon.png') no-repeat left;
-  height: 20px;
+  height: 25px;
   padding-left: 20px;
-  margin-bottom:15px;
+  margin-bottom:20px;
 }
 
 li.cake {
