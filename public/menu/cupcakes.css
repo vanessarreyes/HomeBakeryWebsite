@@ -1,6 +1,8 @@
 body {
   background-color: #cccccc !important;
   font-family: "Times New Roman" !important;
+  margin:0;
+  padding:0;
 }
 
 nav {
